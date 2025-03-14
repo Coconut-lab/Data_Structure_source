@@ -1,5 +1,5 @@
 // 쉽게 배우는 C자료구조(최영규, 생능 출판사, 2024)
-// 참고파일 ch01/find_max.c
+// 참고파일 ch01/02_find_max.c
 
 #include <stdio.h>
 

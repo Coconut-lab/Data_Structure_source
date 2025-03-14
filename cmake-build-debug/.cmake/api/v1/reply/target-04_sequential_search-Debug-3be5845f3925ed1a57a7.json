@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "elapsed"
+			"path" : "04_sequential_search"
 		}
 	],
 	"backtrace" : 1,
@@ -24,7 +24,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 10,
+				"line" : 16,
 				"parent" : 0
 			}
 		]
@@ -53,7 +53,7 @@
 			]
 		}
 	],
-	"id" : "elapsed::@6890427a1f51a3e7e1df",
+	"id" : "04_sequential_search::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -69,8 +69,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "elapsed",
-	"nameOnDisk" : "elapsed",
+	"name" : "04_sequential_search",
+	"nameOnDisk" : "04_sequential_search",
 	"paths" : 
 	{
 		"build" : ".",
@@ -91,7 +91,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "\uad50\uc218\ub2d8 \uc81c\uacf5 \ucf54\ub4dc/1-1/elapsed.c",
+			"path" : "\uad50\uc218\ub2d8 \uc81c\uacf5 \ucf54\ub4dc/1-1/04_sequential_search.c",
 			"sourceGroupIndex" : 0
 		}
 	],

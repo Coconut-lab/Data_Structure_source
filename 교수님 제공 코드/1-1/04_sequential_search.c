@@ -1,5 +1,5 @@
 // 쉽게 배우는 C자료구조(최영규, 생능 출판사, 2024)
-// 참고파일 ch01/sequential_search.c
+// 참고파일 ch01/04_sequential_search.c
 
 #include <stdio.h>
 
@@ -7,7 +7,7 @@
 //-------------------------------------------------------------
 // 코드 1.3 순차 탐색
 
-int sequential_search(int A[], int n, int key)
+int sequential_search(int* A, int n, int key)
 {
     for (int i = 0; i<n; i++)
 	if (A[i] == key)

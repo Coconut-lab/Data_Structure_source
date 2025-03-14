@@ -55,11 +55,17 @@ build CMakeFiles/Data_Structure_source.dir/library.c.o: C_COMPILER__Data_Structu
   OBJECT_DIR = CMakeFiles/Data_Structure_source.dir
   OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir
 
-build CMakeFiles/Data_Structure_source.dir/중간/1-2/test.c.o: C_COMPILER__Data_Structure_source_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/중간/1-2/test.c || cmake_object_order_depends_target_Data_Structure_source
-  DEP_FILE = CMakeFiles/Data_Structure_source.dir/중간/1-2/test.c.o.d
+build CMakeFiles/Data_Structure_source.dir/중간/1-2/first.c.o: C_COMPILER__Data_Structure_source_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/중간/1-2/first.c || cmake_object_order_depends_target_Data_Structure_source
+  DEP_FILE = CMakeFiles/Data_Structure_source.dir/중간/1-2/first.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Data_Structure_source.dir
   OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir/중간/1-2
+
+build CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-1/01-1_elapsed.c.o: C_COMPILER__Data_Structure_source_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/교수님$ 제공$ 코드/1-1/01-1_elapsed.c || cmake_object_order_depends_target_Data_Structure_source
+  DEP_FILE = CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-1/01-1_elapsed.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Data_Structure_source.dir
+  OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-1
 
 
 # =============================================================================
@@ -69,7 +75,7 @@ build CMakeFiles/Data_Structure_source.dir/중간/1-2/test.c.o: C_COMPILER__Data
 #############################################
 # Link the static library libData_Structure_source.a
 
-build libData_Structure_source.a: C_STATIC_LIBRARY_LINKER__Data_Structure_source_Debug CMakeFiles/Data_Structure_source.dir/library.c.o CMakeFiles/Data_Structure_source.dir/중간/1-2/test.c.o
+build libData_Structure_source.a: C_STATIC_LIBRARY_LINKER__Data_Structure_source_Debug CMakeFiles/Data_Structure_source.dir/library.c.o CMakeFiles/Data_Structure_source.dir/중간/1-2/first.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-1/01-1_elapsed.c.o
   ARCH_FLAGS = -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles/Data_Structure_source.dir
@@ -87,8 +93,8 @@ build libData_Structure_source.a: C_STATIC_LIBRARY_LINKER__Data_Structure_source
 
 build cmake_object_order_depends_target_elapsed: phony || .
 
-build CMakeFiles/elapsed.dir/교수님_제공_코드/1-1/elapsed.c.o: C_COMPILER__elapsed_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/교수님$ 제공$ 코드/1-1/elapsed.c || cmake_object_order_depends_target_elapsed
-  DEP_FILE = CMakeFiles/elapsed.dir/교수님_제공_코드/1-1/elapsed.c.o.d
+build CMakeFiles/elapsed.dir/교수님_제공_코드/1-1/01_elapsed.c.o: C_COMPILER__elapsed_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/교수님$ 제공$ 코드/1-1/01_elapsed.c || cmake_object_order_depends_target_elapsed
+  DEP_FILE = CMakeFiles/elapsed.dir/교수님_제공_코드/1-1/01_elapsed.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/elapsed.dir
   OBJECT_FILE_DIR = CMakeFiles/elapsed.dir/교수님_제공_코드/1-1
@@ -101,7 +107,7 @@ build CMakeFiles/elapsed.dir/교수님_제공_코드/1-1/elapsed.c.o: C_COMPILER
 #############################################
 # Link the executable elapsed
 
-build elapsed: C_EXECUTABLE_LINKER__elapsed_Debug CMakeFiles/elapsed.dir/교수님_제공_코드/1-1/elapsed.c.o
+build elapsed: C_EXECUTABLE_LINKER__elapsed_Debug CMakeFiles/elapsed.dir/교수님_제공_코드/1-1/01_elapsed.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/elapsed.dir
   POST_BUILD = :
@@ -118,8 +124,8 @@ build elapsed: C_EXECUTABLE_LINKER__elapsed_Debug CMakeFiles/elapsed.dir/교수�
 
 build cmake_object_order_depends_target_test: phony || .
 
-build CMakeFiles/test.dir/중간/1-2/test.c.o: C_COMPILER__test_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/중간/1-2/test.c || cmake_object_order_depends_target_test
-  DEP_FILE = CMakeFiles/test.dir/중간/1-2/test.c.o.d
+build CMakeFiles/test.dir/중간/1-2/first.c.o: C_COMPILER__test_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/중간/1-2/first.c || cmake_object_order_depends_target_test
+  DEP_FILE = CMakeFiles/test.dir/중간/1-2/first.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/test.dir
   OBJECT_FILE_DIR = CMakeFiles/test.dir/중간/1-2
@@ -132,13 +138,137 @@ build CMakeFiles/test.dir/중간/1-2/test.c.o: C_COMPILER__test_unscanned_Debug 
 #############################################
 # Link the executable test
 
-build test: C_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/중간/1-2/test.c.o
+build test: C_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/중간/1-2/first.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/test.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = test
   TARGET_PDB = test.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01-1_elapsed
+
+
+#############################################
+# Order-only phony target for 01-1_elapsed
+
+build cmake_object_order_depends_target_01-1_elapsed: phony || .
+
+build CMakeFiles/01-1_elapsed.dir/교수님_제공_코드/1-1/01-1_elapsed.c.o: C_COMPILER__01-1_elapsed_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/교수님$ 제공$ 코드/1-1/01-1_elapsed.c || cmake_object_order_depends_target_01-1_elapsed
+  DEP_FILE = CMakeFiles/01-1_elapsed.dir/교수님_제공_코드/1-1/01-1_elapsed.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/01-1_elapsed.dir
+  OBJECT_FILE_DIR = CMakeFiles/01-1_elapsed.dir/교수님_제공_코드/1-1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01-1_elapsed
+
+
+#############################################
+# Link the executable 01-1_elapsed
+
+build 01-1_elapsed: C_EXECUTABLE_LINKER__01-1_elapsed_Debug CMakeFiles/01-1_elapsed.dir/교수님_제공_코드/1-1/01-1_elapsed.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/01-1_elapsed.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 01-1_elapsed
+  TARGET_PDB = 01-1_elapsed.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01_elapsed
+
+
+#############################################
+# Order-only phony target for 01_elapsed
+
+build cmake_object_order_depends_target_01_elapsed: phony || .
+
+build CMakeFiles/01_elapsed.dir/교수님_제공_코드/1-1/01_elapsed.c.o: C_COMPILER__01_elapsed_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/교수님$ 제공$ 코드/1-1/01_elapsed.c || cmake_object_order_depends_target_01_elapsed
+  DEP_FILE = CMakeFiles/01_elapsed.dir/교수님_제공_코드/1-1/01_elapsed.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/01_elapsed.dir
+  OBJECT_FILE_DIR = CMakeFiles/01_elapsed.dir/교수님_제공_코드/1-1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01_elapsed
+
+
+#############################################
+# Link the executable 01_elapsed
+
+build 01_elapsed: C_EXECUTABLE_LINKER__01_elapsed_Debug CMakeFiles/01_elapsed.dir/교수님_제공_코드/1-1/01_elapsed.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/01_elapsed.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 01_elapsed
+  TARGET_PDB = 01_elapsed.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02_find_max
+
+
+#############################################
+# Order-only phony target for 02_find_max
+
+build cmake_object_order_depends_target_02_find_max: phony || .
+
+build CMakeFiles/02_find_max.dir/교수님_제공_코드/1-1/02_find_max.c.o: C_COMPILER__02_find_max_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/교수님$ 제공$ 코드/1-1/02_find_max.c || cmake_object_order_depends_target_02_find_max
+  DEP_FILE = CMakeFiles/02_find_max.dir/교수님_제공_코드/1-1/02_find_max.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/02_find_max.dir
+  OBJECT_FILE_DIR = CMakeFiles/02_find_max.dir/교수님_제공_코드/1-1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02_find_max
+
+
+#############################################
+# Link the executable 02_find_max
+
+build 02_find_max: C_EXECUTABLE_LINKER__02_find_max_Debug CMakeFiles/02_find_max.dir/교수님_제공_코드/1-1/02_find_max.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/02_find_max.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 02_find_max
+  TARGET_PDB = 02_find_max.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 04_sequential_search
+
+
+#############################################
+# Order-only phony target for 04_sequential_search
+
+build cmake_object_order_depends_target_04_sequential_search: phony || .
+
+build CMakeFiles/04_sequential_search.dir/교수님_제공_코드/1-1/04_sequential_search.c.o: C_COMPILER__04_sequential_search_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/교수님$ 제공$ 코드/1-1/04_sequential_search.c || cmake_object_order_depends_target_04_sequential_search
+  DEP_FILE = CMakeFiles/04_sequential_search.dir/교수님_제공_코드/1-1/04_sequential_search.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/04_sequential_search.dir
+  OBJECT_FILE_DIR = CMakeFiles/04_sequential_search.dir/교수님_제공_코드/1-1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04_sequential_search
+
+
+#############################################
+# Link the executable 04_sequential_search
+
+build 04_sequential_search: C_EXECUTABLE_LINKER__04_sequential_search_Debug CMakeFiles/04_sequential_search.dir/교수님_제공_코드/1-1/04_sequential_search.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/04_sequential_search.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 04_sequential_search
+  TARGET_PDB = 04_sequential_search.dbg
 
 
 #############################################
@@ -176,7 +306,7 @@ build Data_Structure_source: phony libData_Structure_source.a
 #############################################
 # Folder: /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug
 
-build all: phony libData_Structure_source.a elapsed test
+build all: phony libData_Structure_source.a elapsed test 01-1_elapsed 01_elapsed 02_find_max 04_sequential_search
 
 # =============================================================================
 # Built-in targets

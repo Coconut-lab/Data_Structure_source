@@ -1,14 +1,14 @@
 // 쉽게 배우는 C자료구조(최영규, 생능 출판사, 2024)
-// 참고파일 ch01/has_duplicate_elem.c
+// 참고파일 ch01/03_has_duplicate_elem.c
 
-
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 
 //-------------------------------------------------------------
 // 코드 1.4 배열에 중복 요소가 있는지 검사
 
-int has_duplicate_elem(int A[], int n)
+int has_duplicate_elem(int* A, int n)
 {
     for (int i = 0; i < n-1; i++) {
         for (int j = i+1; j < n; j++) {

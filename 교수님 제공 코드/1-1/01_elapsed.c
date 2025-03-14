@@ -1,17 +1,11 @@
 #define _CRT_SECURE_NO_WARNINGS
 // 쉽게 배우는 C자료구조(최영규, 생능 출판사, 2024)
-// 참고파일 ch01/elapsed.c
+// 참고파일 ch01/01_elapsed.c
 
 //-------------------------------------------------------------
 // 코드 1.2 1부터 1억까지의 합을 구하는 데 걸리는 시간 측정
 
-int calc_sum(int n)
-{
-    int i, sum = 0;
-    for (i = 1; i < n; i++)
-	    sum = sum + i;
-    return sum;
-}
+int calc_sum(int n);    // 함수의 리스트
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -31,4 +25,12 @@ int main()
     duration = (double)(finish - start) / CLOCKS_PER_SEC;
     printf("1부터 1억까지의 합을 구하는데 걸리 시간: %f 초\n", duration);
     return 0;
+}
+
+int calc_sum(int n)
+{
+    int i, sum = 0;
+    for (i = 1; i < n; i++)
+        sum = sum + i;
+    return sum;
 }
