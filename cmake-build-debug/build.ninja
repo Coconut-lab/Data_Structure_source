@@ -67,6 +67,12 @@ build CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-1/01-1_elap
   OBJECT_DIR = CMakeFiles/Data_Structure_source.dir
   OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-1
 
+build CMakeFiles/Data_Structure_source.dir/과제/total_code-1-1.c.o: C_COMPILER__Data_Structure_source_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/과제/total_code-1-1.c || cmake_object_order_depends_target_Data_Structure_source
+  DEP_FILE = CMakeFiles/Data_Structure_source.dir/과제/total_code-1-1.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Data_Structure_source.dir
+  OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir/과제
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target Data_Structure_source
@@ -75,7 +81,7 @@ build CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-1/01-1_elap
 #############################################
 # Link the static library libData_Structure_source.a
 
-build libData_Structure_source.a: C_STATIC_LIBRARY_LINKER__Data_Structure_source_Debug CMakeFiles/Data_Structure_source.dir/library.c.o CMakeFiles/Data_Structure_source.dir/중간/1-2/first.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-1/01-1_elapsed.c.o
+build libData_Structure_source.a: C_STATIC_LIBRARY_LINKER__Data_Structure_source_Debug CMakeFiles/Data_Structure_source.dir/library.c.o CMakeFiles/Data_Structure_source.dir/중간/1-2/first.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-1/01-1_elapsed.c.o CMakeFiles/Data_Structure_source.dir/과제/total_code-1-1.c.o
   ARCH_FLAGS = -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles/Data_Structure_source.dir
@@ -270,6 +276,37 @@ build 04_sequential_search: C_EXECUTABLE_LINKER__04_sequential_search_Debug CMak
   TARGET_FILE = 04_sequential_search
   TARGET_PDB = 04_sequential_search.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target total_code-1-1
+
+
+#############################################
+# Order-only phony target for total_code-1-1
+
+build cmake_object_order_depends_target_total_code-1-1: phony || .
+
+build CMakeFiles/total_code-1-1.dir/과제/total_code-1-1.c.o: C_COMPILER__total_code-1-1_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/과제/total_code-1-1.c || cmake_object_order_depends_target_total_code-1-1
+  DEP_FILE = CMakeFiles/total_code-1-1.dir/과제/total_code-1-1.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/total_code-1-1.dir
+  OBJECT_FILE_DIR = CMakeFiles/total_code-1-1.dir/과제
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target total_code-1-1
+
+
+#############################################
+# Link the executable total_code-1-1
+
+build total_code-1-1: C_EXECUTABLE_LINKER__total_code-1-1_Debug CMakeFiles/total_code-1-1.dir/과제/total_code-1-1.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/total_code-1-1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = total_code-1-1
+  TARGET_PDB = total_code-1-1.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -306,7 +343,7 @@ build Data_Structure_source: phony libData_Structure_source.a
 #############################################
 # Folder: /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug
 
-build all: phony libData_Structure_source.a elapsed test 01-1_elapsed 01_elapsed 02_find_max 04_sequential_search
+build all: phony libData_Structure_source.a elapsed test 01-1_elapsed 01_elapsed 02_find_max 04_sequential_search total_code-1-1
 
 # =============================================================================
 # Built-in targets
