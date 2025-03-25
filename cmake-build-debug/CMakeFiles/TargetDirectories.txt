@@ -9,5 +9,8 @@
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/array_1D.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/01-1_array_1D.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/02-1_string_test.dir
+/Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/04-1_matrix.dir
+/Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/05_complex.dir
+/Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/ArrayStack.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/rebuild_cache.dir

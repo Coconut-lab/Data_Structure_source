@@ -1,10 +1,11 @@
 // 쉽게 배우는 C자료구조(최영규, 생능 출판사, 2024)
-// 참고파일 ch02/matrix_sparse.c
+// 참고파일 ch02/06_matrix_sparse.c
 
 //-------------------------------------------------------------
 // 코드 2.6 희소 행렬의 표현
-
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+
 typedef struct {
     int		row;		// 행 번호
     int	    col;		// 열 번호
@@ -21,9 +22,9 @@ void print_mat2(Elem m[], int len, char* str)
 void transpose_mat2(Elem m[], int len)
 {
     for (int i = 0; i < len; i++) {
-        int tmp = m[i].row;
-        m[i].row = m[i].col;
-        m[i].col = tmp;
+        int tmp = m[i].row;        // 구조체 변수(레코드 변수)를 통해 필드값 접근
+        m[i].row = m[i].col;       // 구조체 변수(레코드 변수)를 통해 필드값 접근
+        m[i].col = tmp;            // 구조체 변수(레코드 변수)를 통해 필드값 접근
     }
 }
 

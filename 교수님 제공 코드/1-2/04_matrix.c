@@ -1,5 +1,5 @@
 // 쉽게 배우는 C자료구조(최영규, 생능 출판사, 2024)
-// 참고파일 ch02/matrix.c
+// 참고파일 ch02/04_matrix.c
 
 //-------------------------------------------------------------
 // 코드 2.4 행렬을 2차원 배열로 표현하기
@@ -7,6 +7,20 @@
 #include <stdio.h>
 #define ROWS 3
 #define COLS 3
+
+void print_mat(int m[ROWS][COLS], char* str);
+void transpose_mat(int m[ROWS][COLS]);
+
+
+#include <stdlib.h>
+void main()
+{
+    int mat[ROWS][COLS] = { 4, 0, 1, 1, 6, 5, 7, 3, 6 };
+
+    print_mat(mat, "원래 행렬");
+    transpose_mat(mat);
+    print_mat(mat, "전치 행렬");
+}
 
 void print_mat(int m[ROWS][COLS], char* str)
 {
@@ -18,6 +32,7 @@ void print_mat(int m[ROWS][COLS], char* str)
         printf("\n");
     }
 }
+
 void transpose_mat(int m[ROWS][COLS])
 {
     for (int i = 0; i < ROWS; i++) {
@@ -27,13 +42,4 @@ void transpose_mat(int m[ROWS][COLS])
             m[j][i] = tmp;
         }
     }
-}
-
-#include <stdlib.h>
-void main()
-{
-    int mat[ROWS][COLS] = { 4, 0, 1, 1, 6, 5, 7, 3, 6 };
-    print_mat(mat, "원래 행렬");
-    transpose_mat(mat);
-    print_mat(mat, "전치 행렬");
 }

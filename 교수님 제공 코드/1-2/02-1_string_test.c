@@ -7,7 +7,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>// 문자열 복사, 길이 계산 등의 함수 사용을 위해
+#include <string.h>     // 문자열 복사, 길이 계산 등의 함수 사용을 위해
 int main(void)
 {
     char s1[16] = "Hello World";
@@ -32,6 +32,10 @@ int main(void)
         printf("%c", *(s1 + i));
 
     printf("\n");
+
+    for (int i = 0; i < (strlen(s6) + 1); i++) {
+        printf("%s\n", s6 + i);
+    }
 
     printf("문자열 s6의 길이: %zd\n", strlen(s6));
 
