@@ -29,3 +29,4 @@ add_executable(04-1_matrix "교수님 제공 코드/1-2/04-1_matrix.c")
 add_executable(05_complex "교수님 제공 코드/1-2/05_complex.c")
 
 add_executable(ArrayStack "교수님 제공 코드/1-3/ArrayStack.c")
+add_executable(FnCallStack "교수님 제공 코드/1-3/FnCallStack.c")
