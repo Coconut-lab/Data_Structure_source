@@ -14,6 +14,7 @@ add_library(Data_Structure_source STATIC library.c
         과제/1-2/total_code-1-2.c
         과제/1-2/total_code-1-2.h
         중간/1/1-2.c
+        중간/1/1-3.c
 )
 
 add_executable(elapsed "교수님 제공 코드/1-1/01_elapsed.c")
