@@ -20,7 +20,7 @@ int precedence(char op)
     return -1;
 }
 
-void infix_to_postfix(char expr[])
+void infix_to_postfix(char* expr)
 {
     init_stack();
 

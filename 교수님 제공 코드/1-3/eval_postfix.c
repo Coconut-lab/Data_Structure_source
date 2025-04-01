@@ -11,7 +11,7 @@
 typedef double Element; // 스택에는 피연산자(double)가 저장됨
 #include "ArrayStack.h"
 
-double eval_postfix(char expr[])
+double eval_postfix(char* expr)
 {
     int i = 0;
 

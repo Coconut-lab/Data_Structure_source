@@ -15,6 +15,7 @@ add_library(Data_Structure_source STATIC library.c
         과제/1-2/total_code-1-2.h
         중간/1/1-2.c
         중간/1/1-3.c
+        중간/1/calculator.c
 )
 
 add_executable(elapsed "교수님 제공 코드/1-1/01_elapsed.c")
@@ -36,3 +37,9 @@ add_executable(ArrayStack "교수님 제공 코드/1-3/ArrayStack.c")
 add_executable(FnCallStack "교수님 제공 코드/1-3/FnCallStack.c")
 add_executable(1-1 중간/1/1-1.c)
 add_executable(1-2 중간/1/1-2.c)
+add_executable(1-3 중간/1/1-3.c)
+add_executable(test01 중간/1/test01.c)
+add_executable(test02 중간/1/test02.c)
+add_executable(eval_postfix "교수님 제공 코드/1-3/eval_postfix.c")
+add_executable(calculator 중간/1/calculator.c)
+add_executable(infix2postfix "교수님 제공 코드/1-3/infix2postfix.c")
