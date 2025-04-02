@@ -69,7 +69,7 @@ int check_matching(char* expr) {
     else return 0;              // 괄호 정상
 }
 
-// 파일에서 코드 읽기
+// fgets()를 사용하여 한 줄씩 파일 읽기
 char* read_code_from_file(const char* filename) {
     FILE* file = fopen(filename, "r");
     if (file == NULL) {
@@ -77,26 +77,39 @@ char* read_code_from_file(const char* filename) {
         return NULL;
     }
 
-    // 파일 크기 확인
-    fseek(file, 0, SEEK_END);
-    double file_size = ftell(file);
-    rewind(file);
-
-    // 충분한 메모리 할당 (파일 크기 + 여유 공간)
-    char* code = (char*)malloc(file_size + 10);
+    // 동적 메모리 할당
+    char* code = (char*)malloc(MAX_BUFFER);
     if (code == NULL) {
         printf("메모리 할당 오류!\n");
         fclose(file);
         return NULL;
     }
 
-    // 한 번에 전체 파일 읽기
-    size_t bytes_read = fread(code, 1, file_size, file);
-    code[bytes_read] = '\0';  // 문자열 종료
+    // 빈 문자열로 초기화
+    code[0] = '\0';
+
+    char line[MAX_SIZE];
+    int total_length = 0;
+
+    // 한 줄씩 읽기
+    while (fgets(line, MAX_SIZE, file) != NULL) {
+        int line_length = strlen(line);
+
+        // 버퍼 오버플로우 방지
+        if (total_length + line_length >= MAX_BUFFER - 1) {
+            printf("파일이 너무 큽니다!\n");
+            break;
+        }
+
+        // 현재 줄을 code 끝에 추가
+        strcat(code, line);
+        total_length += line_length;
+    }
 
     fclose(file);
     return code;
 }
+
 
 int main() {
     // 고정된 파일 이름 배열
@@ -115,9 +128,6 @@ int main() {
         char* code = read_code_from_file(filenames[i]);
 
         if (code != NULL) {
-            // 파일 내용 출력
-            printf("\n파일 내용:\n%s\n", code);
-
             // 괄호 검사
             int error_code = check_matching(code);
 
