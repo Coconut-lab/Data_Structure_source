@@ -14,7 +14,6 @@ typedef struct {
 
 typedef BracketInfo Element;  // 스택 요소 타입을 BracketInfo로 설정
 
-// ArrayStack.h 헤더 파일 포함
 #include "ArrayStack.h"
 
 // 괄호 검사 함수
