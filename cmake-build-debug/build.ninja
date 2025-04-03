@@ -127,6 +127,12 @@ build CMakeFiles/Data_Structure_source.dir/중간/1/1-4.c.o: C_COMPILER__Data_St
   OBJECT_DIR = CMakeFiles/Data_Structure_source.dir
   OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir/중간/1
 
+build CMakeFiles/Data_Structure_source.dir/중간/1/1-4-solution.c.o: C_COMPILER__Data_Structure_source_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/중간/1/1-4-solution.c || cmake_object_order_depends_target_Data_Structure_source
+  DEP_FILE = CMakeFiles/Data_Structure_source.dir/중간/1/1-4-solution.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Data_Structure_source.dir
+  OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir/중간/1
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target Data_Structure_source
@@ -135,7 +141,7 @@ build CMakeFiles/Data_Structure_source.dir/중간/1/1-4.c.o: C_COMPILER__Data_St
 #############################################
 # Link the static library libData_Structure_source.a
 
-build libData_Structure_source.a: C_STATIC_LIBRARY_LINKER__Data_Structure_source_Debug CMakeFiles/Data_Structure_source.dir/library.c.o CMakeFiles/Data_Structure_source.dir/기타/1-2/first.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-1/01-1_elapsed.c.o CMakeFiles/Data_Structure_source.dir/과제/total_code-1-1.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-2/01-1_array_1D.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-2/02-1_string_test.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-2/04-1_matrix.c.o CMakeFiles/Data_Structure_source.dir/과제/1-2/total_code-1-2.c.o CMakeFiles/Data_Structure_source.dir/중간/1/1-2.c.o CMakeFiles/Data_Structure_source.dir/중간/1/1-3.c.o CMakeFiles/Data_Structure_source.dir/중간/1/calculator.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-3/guiHanoiTower.c.o CMakeFiles/Data_Structure_source.dir/중간/1/1-4.c.o
+build libData_Structure_source.a: C_STATIC_LIBRARY_LINKER__Data_Structure_source_Debug CMakeFiles/Data_Structure_source.dir/library.c.o CMakeFiles/Data_Structure_source.dir/기타/1-2/first.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-1/01-1_elapsed.c.o CMakeFiles/Data_Structure_source.dir/과제/total_code-1-1.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-2/01-1_array_1D.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-2/02-1_string_test.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-2/04-1_matrix.c.o CMakeFiles/Data_Structure_source.dir/과제/1-2/total_code-1-2.c.o CMakeFiles/Data_Structure_source.dir/중간/1/1-2.c.o CMakeFiles/Data_Structure_source.dir/중간/1/1-3.c.o CMakeFiles/Data_Structure_source.dir/중간/1/calculator.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-3/guiHanoiTower.c.o CMakeFiles/Data_Structure_source.dir/중간/1/1-4.c.o CMakeFiles/Data_Structure_source.dir/중간/1/1-4-solution.c.o
   ARCH_FLAGS = -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles/Data_Structure_source.dir
@@ -956,6 +962,37 @@ build 1-4: C_EXECUTABLE_LINKER__1-4_Debug CMakeFiles/1-4.dir/중간/1/1-4.c.o
   TARGET_FILE = 1-4
   TARGET_PDB = 1-4.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 1-4-solution
+
+
+#############################################
+# Order-only phony target for 1-4-solution
+
+build cmake_object_order_depends_target_1-4-solution: phony || .
+
+build CMakeFiles/1-4-solution.dir/중간/1/1-4-solution.c.o: C_COMPILER__1-4-solution_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/중간/1/1-4-solution.c || cmake_object_order_depends_target_1-4-solution
+  DEP_FILE = CMakeFiles/1-4-solution.dir/중간/1/1-4-solution.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1-4-solution.dir
+  OBJECT_FILE_DIR = CMakeFiles/1-4-solution.dir/중간/1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1-4-solution
+
+
+#############################################
+# Link the executable 1-4-solution
+
+build 1-4-solution: C_EXECUTABLE_LINKER__1-4-solution_Debug CMakeFiles/1-4-solution.dir/중간/1/1-4-solution.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/1-4-solution.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1-4-solution
+  TARGET_PDB = 1-4-solution.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -992,7 +1029,7 @@ build Data_Structure_source: phony libData_Structure_source.a
 #############################################
 # Folder: /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug
 
-build all: phony libData_Structure_source.a elapsed test 01-1_elapsed 01_elapsed 02_find_max 04_sequential_search total_code-1-1 array_1D 01-1_array_1D 02-1_string_test 04-1_matrix 05_complex ArrayStack FnCallStack 1-1 1-2 1-3 test01 test02 eval_postfix calculator infix2postfix HanoiTower guiHanoiTower 03_has_duplicate_elem 1-4
+build all: phony libData_Structure_source.a elapsed test 01-1_elapsed 01_elapsed 02_find_max 04_sequential_search total_code-1-1 array_1D 01-1_array_1D 02-1_string_test 04-1_matrix 05_complex ArrayStack FnCallStack 1-1 1-2 1-3 test01 test02 eval_postfix calculator infix2postfix HanoiTower guiHanoiTower 03_has_duplicate_elem 1-4 1-4-solution
 
 # =============================================================================
 # Built-in targets

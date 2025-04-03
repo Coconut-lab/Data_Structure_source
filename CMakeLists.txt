@@ -18,6 +18,7 @@ add_library(Data_Structure_source STATIC library.c
         중간/1/calculator.c
         "교수님 제공 코드/1-3/guiHanoiTower.c"
         중간/1/1-4.c
+        중간/1/1-4-solution.c
 )
 
 add_executable(elapsed "교수님 제공 코드/1-1/01_elapsed.c")
@@ -49,3 +50,4 @@ add_executable(HanoiTower "교수님 제공 코드/1-3/HanoiTower.c")
 add_executable(guiHanoiTower "교수님 제공 코드/1-3/guiHanoiTower.c")
 add_executable(03_has_duplicate_elem "교수님 제공 코드/1-1/03_has_duplicate_elem.c")
 add_executable(1-4 중간/1/1-4.c)
+add_executable(1-4-solution 중간/1/1-4-solution.c)
