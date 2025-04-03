@@ -24,5 +24,6 @@
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/HanoiTower.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/guiHanoiTower.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/03_has_duplicate_elem.dir
+/Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/1-4.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/rebuild_cache.dir

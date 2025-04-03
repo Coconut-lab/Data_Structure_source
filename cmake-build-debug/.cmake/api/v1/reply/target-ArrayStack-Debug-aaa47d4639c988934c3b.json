@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "FnCallStack"
+			"path" : "ArrayStack"
 		}
 	],
 	"backtrace" : 1,
@@ -53,7 +53,7 @@
 			]
 		}
 	],
-	"id" : "FnCallStack::@6890427a1f51a3e7e1df",
+	"id" : "ArrayStack::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -69,8 +69,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "FnCallStack",
-	"nameOnDisk" : "FnCallStack",
+	"name" : "ArrayStack",
+	"nameOnDisk" : "ArrayStack",
 	"paths" : 
 	{
 		"build" : ".",
@@ -91,7 +91,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "\uad50\uc218\ub2d8 \uc81c\uacf5 \ucf54\ub4dc/1-3/FnCallStack.c",
+			"path" : "\uad50\uc218\ub2d8 \uc81c\uacf5 \ucf54\ub4dc/1-3/ArrayStack.c",
 			"sourceGroupIndex" : 0
 		}
 	],
