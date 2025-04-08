@@ -20,6 +20,7 @@ add_library(Data_Structure_source STATIC library.c
         중간/1/1-4.c
         중간/1/1-4-solution.c
         "교수님 제공 코드/1-4/Radium.c"
+        "교수님 제공 코드/1-4/Radium_ex.c"
 )
 
 add_executable(elapsed "교수님 제공 코드/1-1/01_elapsed.c")
