@@ -49,3 +49,5 @@ Element peek()
         error("Underflow Error!");
     return data[(front + 1) % MAX_SIZE];
 }
+
+
