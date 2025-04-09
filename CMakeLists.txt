@@ -25,7 +25,6 @@ add_library(Data_Structure_source STATIC library.c
 )
 
 add_executable(elapsed "교수님 제공 코드/1-1/01_elapsed.c")
-add_executable(test test.c)
 add_executable(01-1_elapsed "교수님 제공 코드/1-1/01-1_elapsed.c")
 add_executable(01_elapsed "교수님 제공 코드/1-1/01_elapsed.c")
 add_executable(02_find_max "교수님 제공 코드/1-1/02_find_max.c")
@@ -57,5 +56,4 @@ add_executable(1-4-solution 중간/1/1-4-solution.c)
 add_executable(CircularQueue "교수님 제공 코드/1-4/CircularQueue.c")
 add_executable(CircularDeque "교수님 제공 코드/1-4/CircularDeque.c")
 add_executable(Radium "교수님 제공 코드/1-4/Radium.c")
-
 add_executable(Radium_test "교수님 제공 코드/1-4/Radium_test.c")

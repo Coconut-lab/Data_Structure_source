@@ -145,11 +145,11 @@ build CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium_ex
   OBJECT_DIR = CMakeFiles/Data_Structure_source.dir
   OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4
 
-build CMakeFiles/Data_Structure_source.dir/test.c.o: C_COMPILER__Data_Structure_source_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/test.c || cmake_object_order_depends_target_Data_Structure_source
-  DEP_FILE = CMakeFiles/Data_Structure_source.dir/test.c.o.d
+build CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium_test.c.o: C_COMPILER__Data_Structure_source_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/교수님$ 제공$ 코드/1-4/Radium_test.c || cmake_object_order_depends_target_Data_Structure_source
+  DEP_FILE = CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium_test.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Data_Structure_source.dir
-  OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir
+  OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4
 
 
 # =============================================================================
@@ -159,7 +159,7 @@ build CMakeFiles/Data_Structure_source.dir/test.c.o: C_COMPILER__Data_Structure_
 #############################################
 # Link the static library libData_Structure_source.a
 
-build libData_Structure_source.a: C_STATIC_LIBRARY_LINKER__Data_Structure_source_Debug CMakeFiles/Data_Structure_source.dir/library.c.o CMakeFiles/Data_Structure_source.dir/기타/1-2/first.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-1/01-1_elapsed.c.o CMakeFiles/Data_Structure_source.dir/과제/total_code-1-1.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-2/01-1_array_1D.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-2/02-1_string_test.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-2/04-1_matrix.c.o CMakeFiles/Data_Structure_source.dir/과제/1-2/total_code-1-2.c.o CMakeFiles/Data_Structure_source.dir/중간/1/1-2.c.o CMakeFiles/Data_Structure_source.dir/중간/1/1-3.c.o CMakeFiles/Data_Structure_source.dir/중간/1/calculator.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-3/guiHanoiTower.c.o CMakeFiles/Data_Structure_source.dir/중간/1/1-4.c.o CMakeFiles/Data_Structure_source.dir/중간/1/1-4-solution.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium_ex.c.o CMakeFiles/Data_Structure_source.dir/test.c.o
+build libData_Structure_source.a: C_STATIC_LIBRARY_LINKER__Data_Structure_source_Debug CMakeFiles/Data_Structure_source.dir/library.c.o CMakeFiles/Data_Structure_source.dir/기타/1-2/first.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-1/01-1_elapsed.c.o CMakeFiles/Data_Structure_source.dir/과제/total_code-1-1.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-2/01-1_array_1D.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-2/02-1_string_test.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-2/04-1_matrix.c.o CMakeFiles/Data_Structure_source.dir/과제/1-2/total_code-1-2.c.o CMakeFiles/Data_Structure_source.dir/중간/1/1-2.c.o CMakeFiles/Data_Structure_source.dir/중간/1/1-3.c.o CMakeFiles/Data_Structure_source.dir/중간/1/calculator.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-3/guiHanoiTower.c.o CMakeFiles/Data_Structure_source.dir/중간/1/1-4.c.o CMakeFiles/Data_Structure_source.dir/중간/1/1-4-solution.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium_ex.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium_test.c.o
   ARCH_FLAGS = -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles/Data_Structure_source.dir
@@ -198,37 +198,6 @@ build elapsed: C_EXECUTABLE_LINKER__elapsed_Debug CMakeFiles/elapsed.dir/교수�
   PRE_LINK = :
   TARGET_FILE = elapsed
   TARGET_PDB = elapsed.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target test
-
-
-#############################################
-# Order-only phony target for test
-
-build cmake_object_order_depends_target_test: phony || .
-
-build CMakeFiles/test.dir/test.c.o: C_COMPILER__test_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/test.c || cmake_object_order_depends_target_test
-  DEP_FILE = CMakeFiles/test.dir/test.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/test.dir
-  OBJECT_FILE_DIR = CMakeFiles/test.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target test
-
-
-#############################################
-# Link the executable test
-
-build test: C_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/test.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
-  OBJECT_DIR = CMakeFiles/test.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = test
-  TARGET_PDB = test.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 01-1_elapsed
@@ -1104,6 +1073,37 @@ build Radium: C_EXECUTABLE_LINKER__Radium_Debug CMakeFiles/Radium.dir/교수님_
   TARGET_FILE = Radium
   TARGET_PDB = Radium.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Radium_test
+
+
+#############################################
+# Order-only phony target for Radium_test
+
+build cmake_object_order_depends_target_Radium_test: phony || .
+
+build CMakeFiles/Radium_test.dir/교수님_제공_코드/1-4/Radium_test.c.o: C_COMPILER__Radium_test_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/교수님$ 제공$ 코드/1-4/Radium_test.c || cmake_object_order_depends_target_Radium_test
+  DEP_FILE = CMakeFiles/Radium_test.dir/교수님_제공_코드/1-4/Radium_test.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Radium_test.dir
+  OBJECT_FILE_DIR = CMakeFiles/Radium_test.dir/교수님_제공_코드/1-4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Radium_test
+
+
+#############################################
+# Link the executable Radium_test
+
+build Radium_test: C_EXECUTABLE_LINKER__Radium_test_Debug CMakeFiles/Radium_test.dir/교수님_제공_코드/1-4/Radium_test.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/Radium_test.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Radium_test
+  TARGET_PDB = Radium_test.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1140,7 +1140,7 @@ build Data_Structure_source: phony libData_Structure_source.a
 #############################################
 # Folder: /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug
 
-build all: phony libData_Structure_source.a elapsed test 01-1_elapsed 01_elapsed 02_find_max 04_sequential_search total_code-1-1 array_1D 01-1_array_1D 02-1_string_test 04-1_matrix 05_complex ArrayStack FnCallStack 1-1 1-2 1-3 test01 test02 eval_postfix calculator infix2postfix HanoiTower guiHanoiTower 03_has_duplicate_elem 1-4 1-4-solution CircularQueue CircularDeque Radium
+build all: phony libData_Structure_source.a elapsed 01-1_elapsed 01_elapsed 02_find_max 04_sequential_search total_code-1-1 array_1D 01-1_array_1D 02-1_string_test 04-1_matrix 05_complex ArrayStack FnCallStack 1-1 1-2 1-3 test01 test02 eval_postfix calculator infix2postfix HanoiTower guiHanoiTower 03_has_duplicate_elem 1-4 1-4-solution CircularQueue CircularDeque Radium Radium_test
 
 # =============================================================================
 # Built-in targets

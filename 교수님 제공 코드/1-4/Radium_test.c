@@ -1,129 +1,112 @@
+// 방사선 감쇠 시뮬레이션 프로그램
+// N(t) = N0 * e^(-kt)를 이용하여 t년 후의 남은 방사선 양을 계산
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 
-#define MAX_SIZE 8
+// CircularQueue.h에서 필요한 매크로와 타입 정의
+#define MAX_SIZE 100
+typedef double Element;
 
-// Element 타입 정의 - 방사선 붕괴 시뮬레이션을 위한 구조체
-typedef struct {
-    double initialAmount;    // 초기 방사성 물질의 양(g)
-    double decayConstant;    // 붕괴 상수(lambda)
-    double time;             // 경과 시간(년)
-} Element;
-
+// CircularQueue.h 포함
 #include "CircularQueue.h"
 
-// 큐 내용을 화면에 출력하는 함수
-void print_queue(char msg[]) {
-    printf("%s front=%d, rear=%d --> \n", msg, front, rear);
-    int size = (rear - front + MAX_SIZE) % MAX_SIZE;
-
-    for (int i = front + 1; i <= front + size; i++) {
-        int idx = i % MAX_SIZE;
-        printf("시뮬레이션 %d: 초기량=%.6fg, 붕괴상수=%.8f/년, 시간=%.2f년\n",
-               i - front, data[idx].initialAmount, data[idx].decayConstant, data[idx].time);
-    }
-    printf("\n");
-}
-
-// 방사선 붕괴 계산 및 결과 출력 함수
-void calculate_decay(Element elem) {
-    double remainingAmount = elem.initialAmount * exp(-elem.decayConstant * elem.time);
-    double activityInitial = elem.initialAmount * elem.decayConstant;
-    double activityFinal = remainingAmount * elem.decayConstant;
-    double halfLife = log(2) / elem.decayConstant;
-
-    printf("\n===== 방사능 붕괴 계산 결과 =====\n");
-    printf("초기 방사성 물질의 양: %.6f g\n", elem.initialAmount);
-    printf("반감기: %.2f 년\n", halfLife);
-    printf("붕괴 상수(λ): %.8f /년\n", elem.decayConstant);
-    printf("경과 시간: %.2f 년\n", elem.time);
-    printf("남은 방사성 물질의 양: %.6f g\n", remainingAmount);
-    printf("감소 비율: %.2f%%\n", (1 - remainingAmount/elem.initialAmount) * 100);
-    printf("초기 방사능 활성도(추정): %.6e Bq\n", activityInitial);
-    printf("최종 방사능 활성도(추정): %.6e Bq\n", activityFinal);
-    printf("==============================\n\n");
-}
-
-// 시뮬레이션 데이터 입력 함수
-Element input_simulation_data() {
-    Element elem;
-
-    printf("초기 방사성 물질의 양(g)을 입력하세요: ");
-    scanf("%lf", &elem.initialAmount);
-
-    printf("반감기(년)를 입력하세요: ");
-    double halfLife;
-    scanf("%lf", &halfLife);
-    elem.decayConstant = log(2) / halfLife;
-
-    printf("경과 시간(년)을 입력하세요: ");
-    scanf("%lf", &elem.time);
-
-    return elem;
+// 방사선 감쇠 함수: N(t) = N0 * e^(-kt)
+double calculate_radiation(double N0, double k, double t) {
+    return N0 * pow(M_E, -k * t);
 }
 
 int main() {
+    // 3개의 큐 초기화 (N0, k, t를 저장하기 위한 큐)
+    Element N0_queue[MAX_SIZE];
+    Element k_queue[MAX_SIZE];
+    Element t_queue[MAX_SIZE];
+
+    // 큐 초기화 (전역 변수를 사용하므로 큐마다 데이터 배열을 따로 설정)
+    Element* data_backup = data;
+
+    // N0 큐 초기화
+    data = N0_queue;
     init_queue();
-    int choice;
+
+    // k 큐 초기화
+    data = k_queue;
+    init_queue();
+
+    // t 큐 초기화
+    data = t_queue;
+    init_queue();
+
+    FILE *input_file, *output_file;
+
+    // 입력 파일 열기
+    input_file = fopen("radiation_input.txt", "r");
+    if (input_file == NULL) {
+        printf("입력 파일을 열 수 없습니다.\n");
+        return 1;
+    }
+
+    // 출력 파일 열기
+    output_file = fopen("radiation_output.txt", "w");
+    if (output_file == NULL) {
+        printf("출력 파일을 생성할 수 없습니다.\n");
+        fclose(input_file);
+        return 1;
+    }
+
+    // 파일에서 데이터 읽기
+    double n0, k, t;
+    while (fscanf(input_file, "%lf %lf %lf", &n0, &k, &t) == 3) {
+        // N0 큐에 초기 방사선 양 입력
+        data = N0_queue;
+        enqueue(n0);
+
+        // k 큐에 감쇠 계수 입력
+        data = k_queue;
+        enqueue(k);
+
+        // t 큐에 시간 입력
+        data = t_queue;
+        enqueue(t);
+    }
+
+    // 파일에서 읽은 데이터로 방사선 감쇠 계산
+    fprintf(output_file, "초기방사선양(N0)\t감쇠계수(k)\t시간(t)\t\t남은 방사선양(N(t))\n");
+    fprintf(output_file, "--------------------------------------------------------------------\n");
 
     while (1) {
-        printf("\n====== 방사선 붕괴 시뮬레이션 ======\n");
-        printf("1. 새로운 시뮬레이션 추가\n");
-        printf("2. 시뮬레이션 계산 및 제거\n");
-        printf("3. 현재 시뮬레이션 목록 보기\n");
-        printf("4. 다음 시뮬레이션 보기 (peek)\n");
-        printf("0. 종료\n");
-        printf("선택: ");
-        scanf("%d", &choice);
+        // 모든 큐가 비어있으면 종료
+        data = N0_queue;
+        if (is_empty()) break;
 
-        switch (choice) {
-            case 0:
-                printf("프로그램을 종료합니다.\n");
-                exit(0);
+        // 큐에서 값 추출
+        data = N0_queue;
+        double current_n0 = dequeue();
 
-            case 1:
-                if (is_full()) {
-                    printf("큐가 가득 찼습니다. 먼저 기존 시뮬레이션을 계산해주세요.\n");
-                } else {
-                    Element elem = input_simulation_data();
-                    enqueue(elem);
-                    printf("시뮬레이션이 큐에 추가되었습니다.\n");
-                }
-                break;
+        data = k_queue;
+        double current_k = dequeue();
 
-            case 2:
-                if (is_empty()) {
-                    printf("큐가 비어있습니다. 먼저 시뮬레이션을 추가해주세요.\n");
-                } else {
-                    Element elem = dequeue();
-                    printf("큐에서 시뮬레이션을 가져와 계산합니다.\n");
-                    calculate_decay(elem);
-                }
-                break;
+        data = t_queue;
+        double current_t = dequeue();
 
-            case 3:
-                if (is_empty()) {
-                    printf("큐가 비어있습니다.\n");
-                } else {
-                    print_queue("현재 큐 상태:");
-                }
-                break;
+        // 방사선 감쇠 계산
+        double result = calculate_radiation(current_n0, current_k, current_t);
 
-            case 4:
-                if (is_empty()) {
-                    printf("큐가 비어있습니다.\n");
-                } else {
-                    Element elem = peek();
-                    printf("다음 처리될 시뮬레이션: 초기량=%.6fg, 붕괴상수=%.8f/년, 시간=%.2f년\n",
-                           elem.initialAmount, elem.decayConstant, elem.time);
-                }
-                break;
-
-            default:
-                printf("잘못된 선택입니다. 다시 시도해주세요.\n");
-        }
+        // 결과를 파일에 기록
+        fprintf(output_file, "%.4lf\t\t%.4lf\t\t%.4lf\t\t%.4lf\n",
+                current_n0, current_k, current_t, result);
     }
+
+    // 원래 데이터 배열 복원
+    data = data_backup;
+
+    // 파일 닫기
+    fclose(input_file);
+    fclose(output_file);
+
+    printf("방사선 감쇠 시뮬레이션이 완료되었습니다.\n");
+    printf("결과가 'radiation_output.txt' 파일에 저장되었습니다.\n");
 
     return 0;
 }

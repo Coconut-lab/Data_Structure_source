@@ -1,6 +1,5 @@
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/Data_Structure_source.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/elapsed.dir
-/Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/test.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/01-1_elapsed.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/01_elapsed.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/02_find_max.dir
@@ -29,5 +28,6 @@
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/CircularQueue.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/CircularDeque.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/Radium.dir
+/Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/Radium_test.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/rebuild_cache.dir
