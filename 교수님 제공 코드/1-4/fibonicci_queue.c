@@ -26,10 +26,12 @@ int fibonacci(int n)
     return dequeue(); // F(n)를 반환
 }
 
-void main()
+int main(void)
 {
     printf("피보나치 수열: ");
     for (int i = 0; i < 16; i++)
         printf("%d,", fibonacci(i));
     printf("\n\n");
+
+    return 0;
 }
