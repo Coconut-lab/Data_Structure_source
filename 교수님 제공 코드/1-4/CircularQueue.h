@@ -15,19 +15,23 @@ void error(char* str)
     printf("%s\n", str);
     exit(1);
 }
+
 // 원형 큐의 주요 연산들
 void init_queue()
 {
     front = rear = 0;
 }
+
 int is_empty()
 {
     return front == rear;
 }
+
 int is_full()
 {
     return front == (rear + 1) % MAX_SIZE;
 }
+
 void enqueue(Element val)
 {
     if (is_full())
@@ -35,6 +39,7 @@ void enqueue(Element val)
     rear = (rear + 1) % MAX_SIZE;
     data[rear] = val;
 }
+
 // 원형큐의 삭제 연산
 Element dequeue()
 {
@@ -43,6 +48,7 @@ Element dequeue()
     front = (front + 1) % MAX_SIZE;
     return data[front];
 }
+
 // 원형큐의 탐색(peek) 연산
 Element peek()
 {

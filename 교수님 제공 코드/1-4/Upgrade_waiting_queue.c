@@ -15,7 +15,6 @@ int main(void)
 {
     int num = 10; // 대기 인원 수
     Element waiting[num];
-    char phone_buffer[32];
 
     init_queue();
 
