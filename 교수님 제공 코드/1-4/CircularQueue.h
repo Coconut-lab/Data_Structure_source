@@ -9,6 +9,7 @@
 Element data[MAX_SIZE]; // 요소의 배열
 int front; // 전단 인덱스
 int rear; // 후단 인덱스
+
 void error(char* str)
 {
     printf("%s\n", str);
@@ -19,7 +20,7 @@ void init_queue()
 {
     front = rear = 0;
 }
-is_empty()
+int is_empty()
 {
     return front == rear;
 }
@@ -50,4 +51,10 @@ Element peek()
     return data[(front + 1) % MAX_SIZE];
 }
 
+// 무작위 전화번호 생성 함수
+void generate_random_phone(char* phone) {
+    int middle = rand() % 10000;
+    int last = rand() % 10000;
 
+    sprintf(phone, "010-%04d-%04d", middle, last);
+}

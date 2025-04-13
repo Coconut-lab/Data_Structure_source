@@ -22,6 +22,7 @@ add_library(Data_Structure_source STATIC library.c
         "교수님 제공 코드/1-4/Radium.c"
         "교수님 제공 코드/1-4/Radium_ex.c"
         "교수님 제공 코드/1-4/Radium_test.c"
+        "교수님 제공 코드/1-4/Upgrade_waiting_queue.c"
 )
 
 add_executable(elapsed "교수님 제공 코드/1-1/01_elapsed.c")
@@ -58,3 +59,5 @@ add_executable(CircularDeque "교수님 제공 코드/1-4/CircularDeque.c")
 add_executable(Radium "교수님 제공 코드/1-4/Radium.c")
 add_executable(Radium_test "교수님 제공 코드/1-4/Radium_test.c")
 add_executable(fibonicci_queue "교수님 제공 코드/1-4/fibonicci_queue.c")
+add_executable(Radium_ex "교수님 제공 코드/1-4/Radium_ex.c")
+add_executable(Upgrade_waiting_queue "교수님 제공 코드/1-4/Upgrade_waiting_queue.c")
