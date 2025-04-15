@@ -48,7 +48,8 @@
 						30,
 						31,
 						32,
-						33
+						33,
+						34
 					]
 				}
 			],
@@ -96,7 +97,8 @@
 						30,
 						31,
 						32,
-						33
+						33,
+						34
 					]
 				}
 			],
@@ -240,6 +242,13 @@
 					"id" : "HanoiTower::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-HanoiTower-Debug-b84494425c1fee0b3e3b.json",
 					"name" : "HanoiTower",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MazeDFSDeque::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MazeDFSDeque-Debug-e0a90da25da2edd9b20d.json",
+					"name" : "MazeDFSDeque",
 					"projectIndex" : 0
 				},
 				{
