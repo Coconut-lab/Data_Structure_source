@@ -3,7 +3,7 @@ project(Data_Structure_source C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_library(Data_Structure_source STATIC library.c
+add_library(Data_Structure_source STATIC test.c
         기타/1-2/first.c
         "교수님 제공 코드/1-1/01-1_elapsed.c"
         과제/total_code-1-1.c
@@ -23,6 +23,8 @@ add_library(Data_Structure_source STATIC library.c
         "교수님 제공 코드/1-4/Radium_ex.c"
         "교수님 제공 코드/1-4/Radium_test.c"
         "교수님 제공 코드/1-4/Upgrade_waiting_queue.c"
+        기타/1-6/tri-circle.c
+        시험대비/SelectionSort.c
 )
 
 add_executable(elapsed "교수님 제공 코드/1-1/01_elapsed.c")
@@ -63,3 +65,6 @@ add_executable(Radium_ex "교수님 제공 코드/1-4/Radium_ex.c")
 add_executable(Upgrade_waiting_queue "교수님 제공 코드/1-4/Upgrade_waiting_queue.c")
 add_executable(MazeDFSDeque "교수님 제공 코드/1-4/MazeDFSDeque.c")
 add_executable(DynStack "교수님 제공 코드/1-5/DynStack.c")
+add_executable(tri-circle 기타/1-6/tri-circle.c)
+add_executable(test test.c)
+add_executable(sort_all "교수님 제공 코드/1-9/sort_all.c")
