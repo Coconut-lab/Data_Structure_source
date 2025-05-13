@@ -179,8 +179,8 @@ void main()
 	// insertion_sort(list, 4); 			    // 삽입 정렬
 	// printArray(list, 4, "Insertion");
 
-	bubble_sort(list, 9); 			        // 버블 정렬
-	printArray(list, 9, "Bubble   ");
+	// bubble_sort(list, 9); 			        // 버블 정렬
+	// printArray(list, 9, "Bubble   ");
 
 //	insertion_sort_fn(list, 7, descend); 	// 내림차순 선택정렬
 //	printArray(list, 7, "Insert-De");
@@ -191,8 +191,8 @@ void main()
 //	shell_sort(list, 9); 	                // 셸 정렬
 //	printArray(list, 9, "ShellSort");
 
-//	merge_sort(list, 0, 6); 	// 내림차순 선택정렬 알고리즘
-//	printArray(list, 7, "MergeSort");	// 정렬 후 배열 출력
+	// merge_sort(list, 0, 8); 	// 내림차순 선택정렬 알고리즘
+	// printArray(list, 9, "MergeSort");	// 정렬 후 배열 출력
 
 //  quick_sort(list, 0, 6); 	// 내림차순 선택정렬 알고리즘
 //  printArray(list, 7, "QuickSort");	// 정렬 후 배열 출력

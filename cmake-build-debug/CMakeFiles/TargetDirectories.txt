@@ -37,5 +37,6 @@
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/tri-circle.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/test.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/sort_all.dir
+/Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/sort_qsort.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/rebuild_cache.dir
