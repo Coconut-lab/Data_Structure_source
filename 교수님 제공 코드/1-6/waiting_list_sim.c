@@ -6,6 +6,7 @@
 // 코드 6.9: 웨이팅 리스트 프로그램
 
 #include <stdio.h>
+#include <string.h>
 #include <stdlib.h>
 struct Waiting {    // 맛집 웨이팅 큐를 위한 구조체
     int id;         // 대기번호
@@ -22,7 +23,7 @@ void reserve(int nperson, const char info[])
     Element e;
     e.id = ++id;                // 대기 번호 자동 부여
     e.nperson = nperson;
-    strcpy_s(e.info, 32, info);
+    strcpy(e.info, info);       // 전화번호 복사
     insert(size(), e);          // 리스트의 맨 뒤에 추가
     printf("<등록> 번호 %d: 인원 %d명 %s\n", e.id, e.nperson, e.info);
 }

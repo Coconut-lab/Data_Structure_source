@@ -31,7 +31,7 @@ void selection_sort(int* A, int n)
                 least = j;				// 최소 요소 갱신
 		SWAP(A[i], A[least], tmp);		// A[i]와 A[min] 교환 
 
-        print_step(A, n, i+1);			// 중간 과정 출력용 문장 
+        print_step(A, n, i+1);			// 대비문제 과정 출력용 문장
 	}
 }
 
@@ -90,7 +90,7 @@ void insertion_sort_fn(int A[], int n, int(*f)(int, int))
             else break;		            // 제자리를 찾음. A[j] 다음 위치.
         }
         A[j + 1] = key;					// A[i]는 j+1에 있어야 함. 제 위치에 복사
-        print_step(A, n, i);			// 중간 과정 출력
+        print_step(A, n, i);			// 대비문제 과정 출력
     }
 }
 

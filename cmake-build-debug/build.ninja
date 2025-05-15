@@ -97,23 +97,23 @@ build CMakeFiles/Data_Structure_source.dir/과제/1-2/total_code-1-2.c.o: C_COMP
   OBJECT_DIR = CMakeFiles/Data_Structure_source.dir
   OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir/과제/1-2
 
-build CMakeFiles/Data_Structure_source.dir/중간/1/1-2.c.o: C_COMPILER__Data_Structure_source_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/중간/1/1-2.c || cmake_object_order_depends_target_Data_Structure_source
-  DEP_FILE = CMakeFiles/Data_Structure_source.dir/중간/1/1-2.c.o.d
+build CMakeFiles/Data_Structure_source.dir/대비문제/1/1-2.c.o: C_COMPILER__Data_Structure_source_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/대비문제/1/1-2.c || cmake_object_order_depends_target_Data_Structure_source
+  DEP_FILE = CMakeFiles/Data_Structure_source.dir/대비문제/1/1-2.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Data_Structure_source.dir
-  OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir/중간/1
+  OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir/대비문제/1
 
-build CMakeFiles/Data_Structure_source.dir/중간/1/1-3.c.o: C_COMPILER__Data_Structure_source_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/중간/1/1-3.c || cmake_object_order_depends_target_Data_Structure_source
-  DEP_FILE = CMakeFiles/Data_Structure_source.dir/중간/1/1-3.c.o.d
+build CMakeFiles/Data_Structure_source.dir/대비문제/1/1-3.c.o: C_COMPILER__Data_Structure_source_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/대비문제/1/1-3.c || cmake_object_order_depends_target_Data_Structure_source
+  DEP_FILE = CMakeFiles/Data_Structure_source.dir/대비문제/1/1-3.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Data_Structure_source.dir
-  OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir/중간/1
+  OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir/대비문제/1
 
-build CMakeFiles/Data_Structure_source.dir/중간/1/calculator.c.o: C_COMPILER__Data_Structure_source_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/중간/1/calculator.c || cmake_object_order_depends_target_Data_Structure_source
-  DEP_FILE = CMakeFiles/Data_Structure_source.dir/중간/1/calculator.c.o.d
+build CMakeFiles/Data_Structure_source.dir/대비문제/1/calculator.c.o: C_COMPILER__Data_Structure_source_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/대비문제/1/calculator.c || cmake_object_order_depends_target_Data_Structure_source
+  DEP_FILE = CMakeFiles/Data_Structure_source.dir/대비문제/1/calculator.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Data_Structure_source.dir
-  OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir/중간/1
+  OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir/대비문제/1
 
 build CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-3/guiHanoiTower.c.o: C_COMPILER__Data_Structure_source_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/교수님$ 제공$ 코드/1-3/guiHanoiTower.c || cmake_object_order_depends_target_Data_Structure_source
   DEP_FILE = CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-3/guiHanoiTower.c.o.d
@@ -121,17 +121,17 @@ build CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-3/guiHanoiT
   OBJECT_DIR = CMakeFiles/Data_Structure_source.dir
   OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-3
 
-build CMakeFiles/Data_Structure_source.dir/중간/1/1-4.c.o: C_COMPILER__Data_Structure_source_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/중간/1/1-4.c || cmake_object_order_depends_target_Data_Structure_source
-  DEP_FILE = CMakeFiles/Data_Structure_source.dir/중간/1/1-4.c.o.d
+build CMakeFiles/Data_Structure_source.dir/대비문제/1/1-4.c.o: C_COMPILER__Data_Structure_source_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/대비문제/1/1-4.c || cmake_object_order_depends_target_Data_Structure_source
+  DEP_FILE = CMakeFiles/Data_Structure_source.dir/대비문제/1/1-4.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Data_Structure_source.dir
-  OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir/중간/1
+  OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir/대비문제/1
 
-build CMakeFiles/Data_Structure_source.dir/중간/1/1-4-solution.c.o: C_COMPILER__Data_Structure_source_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/중간/1/1-4-solution.c || cmake_object_order_depends_target_Data_Structure_source
-  DEP_FILE = CMakeFiles/Data_Structure_source.dir/중간/1/1-4-solution.c.o.d
+build CMakeFiles/Data_Structure_source.dir/대비문제/1/1-4-solution.c.o: C_COMPILER__Data_Structure_source_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/대비문제/1/1-4-solution.c || cmake_object_order_depends_target_Data_Structure_source
+  DEP_FILE = CMakeFiles/Data_Structure_source.dir/대비문제/1/1-4-solution.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Data_Structure_source.dir
-  OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir/중간/1
+  OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir/대비문제/1
 
 build CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium.c.o: C_COMPILER__Data_Structure_source_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/교수님$ 제공$ 코드/1-4/Radium.c || cmake_object_order_depends_target_Data_Structure_source
   DEP_FILE = CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium.c.o.d
@@ -157,17 +157,35 @@ build CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Upgrade_w
   OBJECT_DIR = CMakeFiles/Data_Structure_source.dir
   OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4
 
-build CMakeFiles/Data_Structure_source.dir/기타/1-6/tri-circle.c.o: C_COMPILER__Data_Structure_source_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/기타/1-6/tri-circle.c || cmake_object_order_depends_target_Data_Structure_source
-  DEP_FILE = CMakeFiles/Data_Structure_source.dir/기타/1-6/tri-circle.c.o.d
+build CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-6/1-6_문제/tri-circle.c.o: C_COMPILER__Data_Structure_source_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/교수님$ 제공$ 코드/1-6/1-6$ 문제/tri-circle.c || cmake_object_order_depends_target_Data_Structure_source
+  DEP_FILE = CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-6/1-6_문제/tri-circle.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Data_Structure_source.dir
-  OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir/기타/1-6
+  OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-6/1-6_문제
 
-build CMakeFiles/Data_Structure_source.dir/시험대비/SelectionSort.c.o: C_COMPILER__Data_Structure_source_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/시험대비/SelectionSort.c || cmake_object_order_depends_target_Data_Structure_source
-  DEP_FILE = CMakeFiles/Data_Structure_source.dir/시험대비/SelectionSort.c.o.d
+build CMakeFiles/Data_Structure_source.dir/대비문제/1/SelectionSort.c.o: C_COMPILER__Data_Structure_source_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/대비문제/1/SelectionSort.c || cmake_object_order_depends_target_Data_Structure_source
+  DEP_FILE = CMakeFiles/Data_Structure_source.dir/대비문제/1/SelectionSort.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Data_Structure_source.dir
-  OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir/시험대비
+  OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir/대비문제/1
+
+build CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-6/1-6_문제/tri-circle2.c.o: C_COMPILER__Data_Structure_source_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/교수님$ 제공$ 코드/1-6/1-6$ 문제/tri-circle2.c || cmake_object_order_depends_target_Data_Structure_source
+  DEP_FILE = CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-6/1-6_문제/tri-circle2.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Data_Structure_source.dir
+  OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-6/1-6_문제
+
+build CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium_minjae.c.o: C_COMPILER__Data_Structure_source_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/교수님$ 제공$ 코드/1-4/Radium_minjae.c || cmake_object_order_depends_target_Data_Structure_source
+  DEP_FILE = CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium_minjae.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Data_Structure_source.dir
+  OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4
+
+build CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium_minjae2.c.o: C_COMPILER__Data_Structure_source_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/교수님$ 제공$ 코드/1-4/Radium_minjae2.c || cmake_object_order_depends_target_Data_Structure_source
+  DEP_FILE = CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium_minjae2.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Data_Structure_source.dir
+  OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4
 
 
 # =============================================================================
@@ -177,7 +195,7 @@ build CMakeFiles/Data_Structure_source.dir/시험대비/SelectionSort.c.o: C_COM
 #############################################
 # Link the static library libData_Structure_source.a
 
-build libData_Structure_source.a: C_STATIC_LIBRARY_LINKER__Data_Structure_source_Debug CMakeFiles/Data_Structure_source.dir/test.c.o CMakeFiles/Data_Structure_source.dir/기타/1-2/first.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-1/01-1_elapsed.c.o CMakeFiles/Data_Structure_source.dir/과제/total_code-1-1.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-2/01-1_array_1D.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-2/02-1_string_test.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-2/04-1_matrix.c.o CMakeFiles/Data_Structure_source.dir/과제/1-2/total_code-1-2.c.o CMakeFiles/Data_Structure_source.dir/중간/1/1-2.c.o CMakeFiles/Data_Structure_source.dir/중간/1/1-3.c.o CMakeFiles/Data_Structure_source.dir/중간/1/calculator.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-3/guiHanoiTower.c.o CMakeFiles/Data_Structure_source.dir/중간/1/1-4.c.o CMakeFiles/Data_Structure_source.dir/중간/1/1-4-solution.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium_ex.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium_test.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Upgrade_waiting_queue.c.o CMakeFiles/Data_Structure_source.dir/기타/1-6/tri-circle.c.o CMakeFiles/Data_Structure_source.dir/시험대비/SelectionSort.c.o
+build libData_Structure_source.a: C_STATIC_LIBRARY_LINKER__Data_Structure_source_Debug CMakeFiles/Data_Structure_source.dir/test.c.o CMakeFiles/Data_Structure_source.dir/기타/1-2/first.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-1/01-1_elapsed.c.o CMakeFiles/Data_Structure_source.dir/과제/total_code-1-1.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-2/01-1_array_1D.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-2/02-1_string_test.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-2/04-1_matrix.c.o CMakeFiles/Data_Structure_source.dir/과제/1-2/total_code-1-2.c.o CMakeFiles/Data_Structure_source.dir/대비문제/1/1-2.c.o CMakeFiles/Data_Structure_source.dir/대비문제/1/1-3.c.o CMakeFiles/Data_Structure_source.dir/대비문제/1/calculator.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-3/guiHanoiTower.c.o CMakeFiles/Data_Structure_source.dir/대비문제/1/1-4.c.o CMakeFiles/Data_Structure_source.dir/대비문제/1/1-4-solution.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium_ex.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium_test.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Upgrade_waiting_queue.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-6/1-6_문제/tri-circle.c.o CMakeFiles/Data_Structure_source.dir/대비문제/1/SelectionSort.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-6/1-6_문제/tri-circle2.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium_minjae.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium_minjae2.c.o
   ARCH_FLAGS = -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles/Data_Structure_source.dir
@@ -418,11 +436,11 @@ build CMakeFiles/01-1_array_1D.dir/교수님_제공_코드/1-2/01-1_array_1D.c.o
   OBJECT_DIR = CMakeFiles/01-1_array_1D.dir
   OBJECT_FILE_DIR = CMakeFiles/01-1_array_1D.dir/교수님_제공_코드/1-2
 
-build CMakeFiles/01-1_array_1D.dir/중간/1/1-1.c.o: C_COMPILER__01-1_array_1D_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/중간/1/1-1.c || cmake_object_order_depends_target_01-1_array_1D
-  DEP_FILE = CMakeFiles/01-1_array_1D.dir/중간/1/1-1.c.o.d
+build CMakeFiles/01-1_array_1D.dir/대비문제/1/1-1.c.o: C_COMPILER__01-1_array_1D_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/대비문제/1/1-1.c || cmake_object_order_depends_target_01-1_array_1D
+  DEP_FILE = CMakeFiles/01-1_array_1D.dir/대비문제/1/1-1.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/01-1_array_1D.dir
-  OBJECT_FILE_DIR = CMakeFiles/01-1_array_1D.dir/중간/1
+  OBJECT_FILE_DIR = CMakeFiles/01-1_array_1D.dir/대비문제/1
 
 
 # =============================================================================
@@ -432,7 +450,7 @@ build CMakeFiles/01-1_array_1D.dir/중간/1/1-1.c.o: C_COMPILER__01-1_array_1D_u
 #############################################
 # Link the executable 01-1_array_1D
 
-build 01-1_array_1D: C_EXECUTABLE_LINKER__01-1_array_1D_Debug CMakeFiles/01-1_array_1D.dir/교수님_제공_코드/1-2/01-1_array_1D.c.o CMakeFiles/01-1_array_1D.dir/중간/1/1-1.c.o
+build 01-1_array_1D: C_EXECUTABLE_LINKER__01-1_array_1D_Debug CMakeFiles/01-1_array_1D.dir/교수님_제공_코드/1-2/01-1_array_1D.c.o CMakeFiles/01-1_array_1D.dir/대비문제/1/1-1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/01-1_array_1D.dir
   POST_BUILD = :
@@ -604,11 +622,11 @@ build FnCallStack: C_EXECUTABLE_LINKER__FnCallStack_Debug CMakeFiles/FnCallStack
 
 build cmake_object_order_depends_target_1-1: phony || .
 
-build CMakeFiles/1-1.dir/중간/1/1-1.c.o: C_COMPILER__1-1_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/중간/1/1-1.c || cmake_object_order_depends_target_1-1
-  DEP_FILE = CMakeFiles/1-1.dir/중간/1/1-1.c.o.d
+build CMakeFiles/1-1.dir/대비문제/1/1-1.c.o: C_COMPILER__1-1_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/대비문제/1/1-1.c || cmake_object_order_depends_target_1-1
+  DEP_FILE = CMakeFiles/1-1.dir/대비문제/1/1-1.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/1-1.dir
-  OBJECT_FILE_DIR = CMakeFiles/1-1.dir/중간/1
+  OBJECT_FILE_DIR = CMakeFiles/1-1.dir/대비문제/1
 
 
 # =============================================================================
@@ -618,7 +636,7 @@ build CMakeFiles/1-1.dir/중간/1/1-1.c.o: C_COMPILER__1-1_unscanned_Debug /User
 #############################################
 # Link the executable 1-1
 
-build 1-1: C_EXECUTABLE_LINKER__1-1_Debug CMakeFiles/1-1.dir/중간/1/1-1.c.o
+build 1-1: C_EXECUTABLE_LINKER__1-1_Debug CMakeFiles/1-1.dir/대비문제/1/1-1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/1-1.dir
   POST_BUILD = :
@@ -635,11 +653,11 @@ build 1-1: C_EXECUTABLE_LINKER__1-1_Debug CMakeFiles/1-1.dir/중간/1/1-1.c.o
 
 build cmake_object_order_depends_target_1-2: phony || .
 
-build CMakeFiles/1-2.dir/중간/1/1-2.c.o: C_COMPILER__1-2_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/중간/1/1-2.c || cmake_object_order_depends_target_1-2
-  DEP_FILE = CMakeFiles/1-2.dir/중간/1/1-2.c.o.d
+build CMakeFiles/1-2.dir/대비문제/1/1-2.c.o: C_COMPILER__1-2_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/대비문제/1/1-2.c || cmake_object_order_depends_target_1-2
+  DEP_FILE = CMakeFiles/1-2.dir/대비문제/1/1-2.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/1-2.dir
-  OBJECT_FILE_DIR = CMakeFiles/1-2.dir/중간/1
+  OBJECT_FILE_DIR = CMakeFiles/1-2.dir/대비문제/1
 
 
 # =============================================================================
@@ -649,7 +667,7 @@ build CMakeFiles/1-2.dir/중간/1/1-2.c.o: C_COMPILER__1-2_unscanned_Debug /User
 #############################################
 # Link the executable 1-2
 
-build 1-2: C_EXECUTABLE_LINKER__1-2_Debug CMakeFiles/1-2.dir/중간/1/1-2.c.o
+build 1-2: C_EXECUTABLE_LINKER__1-2_Debug CMakeFiles/1-2.dir/대비문제/1/1-2.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/1-2.dir
   POST_BUILD = :
@@ -666,11 +684,11 @@ build 1-2: C_EXECUTABLE_LINKER__1-2_Debug CMakeFiles/1-2.dir/중간/1/1-2.c.o
 
 build cmake_object_order_depends_target_1-3: phony || .
 
-build CMakeFiles/1-3.dir/중간/1/1-3.c.o: C_COMPILER__1-3_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/중간/1/1-3.c || cmake_object_order_depends_target_1-3
-  DEP_FILE = CMakeFiles/1-3.dir/중간/1/1-3.c.o.d
+build CMakeFiles/1-3.dir/대비문제/1/1-3.c.o: C_COMPILER__1-3_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/대비문제/1/1-3.c || cmake_object_order_depends_target_1-3
+  DEP_FILE = CMakeFiles/1-3.dir/대비문제/1/1-3.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/1-3.dir
-  OBJECT_FILE_DIR = CMakeFiles/1-3.dir/중간/1
+  OBJECT_FILE_DIR = CMakeFiles/1-3.dir/대비문제/1
 
 
 # =============================================================================
@@ -680,7 +698,7 @@ build CMakeFiles/1-3.dir/중간/1/1-3.c.o: C_COMPILER__1-3_unscanned_Debug /User
 #############################################
 # Link the executable 1-3
 
-build 1-3: C_EXECUTABLE_LINKER__1-3_Debug CMakeFiles/1-3.dir/중간/1/1-3.c.o
+build 1-3: C_EXECUTABLE_LINKER__1-3_Debug CMakeFiles/1-3.dir/대비문제/1/1-3.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/1-3.dir
   POST_BUILD = :
@@ -697,11 +715,11 @@ build 1-3: C_EXECUTABLE_LINKER__1-3_Debug CMakeFiles/1-3.dir/중간/1/1-3.c.o
 
 build cmake_object_order_depends_target_test01: phony || .
 
-build CMakeFiles/test01.dir/중간/1/test01.c.o: C_COMPILER__test01_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/중간/1/test01.c || cmake_object_order_depends_target_test01
-  DEP_FILE = CMakeFiles/test01.dir/중간/1/test01.c.o.d
+build CMakeFiles/test01.dir/대비문제/1/test01.c.o: C_COMPILER__test01_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/대비문제/1/test01.c || cmake_object_order_depends_target_test01
+  DEP_FILE = CMakeFiles/test01.dir/대비문제/1/test01.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/test01.dir
-  OBJECT_FILE_DIR = CMakeFiles/test01.dir/중간/1
+  OBJECT_FILE_DIR = CMakeFiles/test01.dir/대비문제/1
 
 
 # =============================================================================
@@ -711,7 +729,7 @@ build CMakeFiles/test01.dir/중간/1/test01.c.o: C_COMPILER__test01_unscanned_De
 #############################################
 # Link the executable test01
 
-build test01: C_EXECUTABLE_LINKER__test01_Debug CMakeFiles/test01.dir/중간/1/test01.c.o
+build test01: C_EXECUTABLE_LINKER__test01_Debug CMakeFiles/test01.dir/대비문제/1/test01.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/test01.dir
   POST_BUILD = :
@@ -728,11 +746,11 @@ build test01: C_EXECUTABLE_LINKER__test01_Debug CMakeFiles/test01.dir/중간/1/t
 
 build cmake_object_order_depends_target_test02: phony || .
 
-build CMakeFiles/test02.dir/중간/1/test02.c.o: C_COMPILER__test02_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/중간/1/test02.c || cmake_object_order_depends_target_test02
-  DEP_FILE = CMakeFiles/test02.dir/중간/1/test02.c.o.d
+build CMakeFiles/test02.dir/대비문제/1/test02.c.o: C_COMPILER__test02_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/대비문제/1/test02.c || cmake_object_order_depends_target_test02
+  DEP_FILE = CMakeFiles/test02.dir/대비문제/1/test02.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/test02.dir
-  OBJECT_FILE_DIR = CMakeFiles/test02.dir/중간/1
+  OBJECT_FILE_DIR = CMakeFiles/test02.dir/대비문제/1
 
 
 # =============================================================================
@@ -742,7 +760,7 @@ build CMakeFiles/test02.dir/중간/1/test02.c.o: C_COMPILER__test02_unscanned_De
 #############################################
 # Link the executable test02
 
-build test02: C_EXECUTABLE_LINKER__test02_Debug CMakeFiles/test02.dir/중간/1/test02.c.o
+build test02: C_EXECUTABLE_LINKER__test02_Debug CMakeFiles/test02.dir/대비문제/1/test02.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/test02.dir
   POST_BUILD = :
@@ -790,11 +808,11 @@ build eval_postfix: C_EXECUTABLE_LINKER__eval_postfix_Debug CMakeFiles/eval_post
 
 build cmake_object_order_depends_target_calculator: phony || .
 
-build CMakeFiles/calculator.dir/중간/1/calculator.c.o: C_COMPILER__calculator_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/중간/1/calculator.c || cmake_object_order_depends_target_calculator
-  DEP_FILE = CMakeFiles/calculator.dir/중간/1/calculator.c.o.d
+build CMakeFiles/calculator.dir/대비문제/1/calculator.c.o: C_COMPILER__calculator_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/대비문제/1/calculator.c || cmake_object_order_depends_target_calculator
+  DEP_FILE = CMakeFiles/calculator.dir/대비문제/1/calculator.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/calculator.dir
-  OBJECT_FILE_DIR = CMakeFiles/calculator.dir/중간/1
+  OBJECT_FILE_DIR = CMakeFiles/calculator.dir/대비문제/1
 
 
 # =============================================================================
@@ -804,7 +822,7 @@ build CMakeFiles/calculator.dir/중간/1/calculator.c.o: C_COMPILER__calculator_
 #############################################
 # Link the executable calculator
 
-build calculator: C_EXECUTABLE_LINKER__calculator_Debug CMakeFiles/calculator.dir/중간/1/calculator.c.o
+build calculator: C_EXECUTABLE_LINKER__calculator_Debug CMakeFiles/calculator.dir/대비문제/1/calculator.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/calculator.dir
   POST_BUILD = :
@@ -945,11 +963,11 @@ build 03_has_duplicate_elem: C_EXECUTABLE_LINKER__03_has_duplicate_elem_Debug CM
 
 build cmake_object_order_depends_target_1-4: phony || .
 
-build CMakeFiles/1-4.dir/중간/1/1-4.c.o: C_COMPILER__1-4_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/중간/1/1-4.c || cmake_object_order_depends_target_1-4
-  DEP_FILE = CMakeFiles/1-4.dir/중간/1/1-4.c.o.d
+build CMakeFiles/1-4.dir/대비문제/1/1-4.c.o: C_COMPILER__1-4_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/대비문제/1/1-4.c || cmake_object_order_depends_target_1-4
+  DEP_FILE = CMakeFiles/1-4.dir/대비문제/1/1-4.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/1-4.dir
-  OBJECT_FILE_DIR = CMakeFiles/1-4.dir/중간/1
+  OBJECT_FILE_DIR = CMakeFiles/1-4.dir/대비문제/1
 
 
 # =============================================================================
@@ -959,7 +977,7 @@ build CMakeFiles/1-4.dir/중간/1/1-4.c.o: C_COMPILER__1-4_unscanned_Debug /User
 #############################################
 # Link the executable 1-4
 
-build 1-4: C_EXECUTABLE_LINKER__1-4_Debug CMakeFiles/1-4.dir/중간/1/1-4.c.o
+build 1-4: C_EXECUTABLE_LINKER__1-4_Debug CMakeFiles/1-4.dir/대비문제/1/1-4.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/1-4.dir
   POST_BUILD = :
@@ -976,11 +994,11 @@ build 1-4: C_EXECUTABLE_LINKER__1-4_Debug CMakeFiles/1-4.dir/중간/1/1-4.c.o
 
 build cmake_object_order_depends_target_1-4-solution: phony || .
 
-build CMakeFiles/1-4-solution.dir/중간/1/1-4-solution.c.o: C_COMPILER__1-4-solution_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/중간/1/1-4-solution.c || cmake_object_order_depends_target_1-4-solution
-  DEP_FILE = CMakeFiles/1-4-solution.dir/중간/1/1-4-solution.c.o.d
+build CMakeFiles/1-4-solution.dir/대비문제/1/1-4-solution.c.o: C_COMPILER__1-4-solution_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/대비문제/1/1-4-solution.c || cmake_object_order_depends_target_1-4-solution
+  DEP_FILE = CMakeFiles/1-4-solution.dir/대비문제/1/1-4-solution.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/1-4-solution.dir
-  OBJECT_FILE_DIR = CMakeFiles/1-4-solution.dir/중간/1
+  OBJECT_FILE_DIR = CMakeFiles/1-4-solution.dir/대비문제/1
 
 
 # =============================================================================
@@ -990,7 +1008,7 @@ build CMakeFiles/1-4-solution.dir/중간/1/1-4-solution.c.o: C_COMPILER__1-4-sol
 #############################################
 # Link the executable 1-4-solution
 
-build 1-4-solution: C_EXECUTABLE_LINKER__1-4-solution_Debug CMakeFiles/1-4-solution.dir/중간/1/1-4-solution.c.o
+build 1-4-solution: C_EXECUTABLE_LINKER__1-4-solution_Debug CMakeFiles/1-4-solution.dir/대비문제/1/1-4-solution.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/1-4-solution.dir
   POST_BUILD = :
@@ -1286,11 +1304,11 @@ build DynStack: C_EXECUTABLE_LINKER__DynStack_Debug CMakeFiles/DynStack.dir/교�
 
 build cmake_object_order_depends_target_tri-circle: phony || .
 
-build CMakeFiles/tri-circle.dir/기타/1-6/tri-circle.c.o: C_COMPILER__tri-circle_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/기타/1-6/tri-circle.c || cmake_object_order_depends_target_tri-circle
-  DEP_FILE = CMakeFiles/tri-circle.dir/기타/1-6/tri-circle.c.o.d
+build CMakeFiles/tri-circle.dir/교수님_제공_코드/1-6/1-6_문제/tri-circle.c.o: C_COMPILER__tri-circle_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/교수님$ 제공$ 코드/1-6/1-6$ 문제/tri-circle.c || cmake_object_order_depends_target_tri-circle
+  DEP_FILE = CMakeFiles/tri-circle.dir/교수님_제공_코드/1-6/1-6_문제/tri-circle.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/tri-circle.dir
-  OBJECT_FILE_DIR = CMakeFiles/tri-circle.dir/기타/1-6
+  OBJECT_FILE_DIR = CMakeFiles/tri-circle.dir/교수님_제공_코드/1-6/1-6_문제
 
 
 # =============================================================================
@@ -1300,7 +1318,7 @@ build CMakeFiles/tri-circle.dir/기타/1-6/tri-circle.c.o: C_COMPILER__tri-circl
 #############################################
 # Link the executable tri-circle
 
-build tri-circle: C_EXECUTABLE_LINKER__tri-circle_Debug CMakeFiles/tri-circle.dir/기타/1-6/tri-circle.c.o
+build tri-circle: C_EXECUTABLE_LINKER__tri-circle_Debug CMakeFiles/tri-circle.dir/교수님_제공_코드/1-6/1-6_문제/tri-circle.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/tri-circle.dir
   POST_BUILD = :
@@ -1401,6 +1419,37 @@ build sort_qsort: C_EXECUTABLE_LINKER__sort_qsort_Debug CMakeFiles/sort_qsort.di
   TARGET_FILE = sort_qsort
   TARGET_PDB = sort_qsort.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target tri-circle2
+
+
+#############################################
+# Order-only phony target for tri-circle2
+
+build cmake_object_order_depends_target_tri-circle2: phony || .
+
+build CMakeFiles/tri-circle2.dir/교수님_제공_코드/1-6/1-6_문제/tri-circle2.c.o: C_COMPILER__tri-circle2_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/교수님$ 제공$ 코드/1-6/1-6$ 문제/tri-circle2.c || cmake_object_order_depends_target_tri-circle2
+  DEP_FILE = CMakeFiles/tri-circle2.dir/교수님_제공_코드/1-6/1-6_문제/tri-circle2.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/tri-circle2.dir
+  OBJECT_FILE_DIR = CMakeFiles/tri-circle2.dir/교수님_제공_코드/1-6/1-6_문제
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target tri-circle2
+
+
+#############################################
+# Link the executable tri-circle2
+
+build tri-circle2: C_EXECUTABLE_LINKER__tri-circle2_Debug CMakeFiles/tri-circle2.dir/교수님_제공_코드/1-6/1-6_문제/tri-circle2.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/tri-circle2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tri-circle2
+  TARGET_PDB = tri-circle2.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1437,7 +1486,7 @@ build Data_Structure_source: phony libData_Structure_source.a
 #############################################
 # Folder: /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug
 
-build all: phony libData_Structure_source.a elapsed 01-1_elapsed 01_elapsed 02_find_max 04_sequential_search total_code-1-1 array_1D 01-1_array_1D 02-1_string_test 04-1_matrix 05_complex ArrayStack FnCallStack 1-1 1-2 1-3 test01 test02 eval_postfix calculator infix2postfix HanoiTower guiHanoiTower 03_has_duplicate_elem 1-4 1-4-solution CircularQueue CircularDeque Radium Radium_test fibonicci_queue Radium_ex Upgrade_waiting_queue MazeDFSDeque DynStack tri-circle test sort_all sort_qsort
+build all: phony libData_Structure_source.a elapsed 01-1_elapsed 01_elapsed 02_find_max 04_sequential_search total_code-1-1 array_1D 01-1_array_1D 02-1_string_test 04-1_matrix 05_complex ArrayStack FnCallStack 1-1 1-2 1-3 test01 test02 eval_postfix calculator infix2postfix HanoiTower guiHanoiTower 03_has_duplicate_elem 1-4 1-4-solution CircularQueue CircularDeque Radium Radium_test fibonicci_queue Radium_ex Upgrade_waiting_queue MazeDFSDeque DynStack tri-circle test sort_all sort_qsort tri-circle2
 
 # =============================================================================
 # Built-in targets
