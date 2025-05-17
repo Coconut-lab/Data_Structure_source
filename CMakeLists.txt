@@ -28,6 +28,12 @@ add_library(Data_Structure_source STATIC test.c
         "교수님 제공 코드/1-6/1-6 문제/tri-circle2.c"
         "교수님 제공 코드/1-4/Radium_minjae.c"
         "교수님 제공 코드/1-4/Radium_minjae2.c"
+        시험/01.c
+        시험/02.c
+        시험/03.c
+        시험/04.c
+        시험/05.c
+        시험/06.c
 )
 
 add_executable(elapsed "교수님 제공 코드/1-1/01_elapsed.c")
@@ -73,3 +79,9 @@ add_executable(test test.c)
 add_executable(sort_all "교수님 제공 코드/1-9/sort_all.c")
 add_executable(sort_qsort "교수님 제공 코드/1-9/sort_qsort.c")
 add_executable(tri-circle2 "교수님 제공 코드/1-6/1-6 문제/tri-circle2.c")
+add_executable(01 시험/01.c)
+add_executable(02 시험/02.c)
+add_executable(03 시험/03.c 시험/LinkedList.h)
+add_executable(LinkedList "교수님 제공 코드/1-6/1-6설명/LinkedList.c")
+add_executable(04 시험/04.c)
+add_executable(05 시험/05.c)
