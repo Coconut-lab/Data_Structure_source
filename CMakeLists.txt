@@ -34,6 +34,7 @@ add_library(Data_Structure_source STATIC test.c
         시험/04.c
         시험/05.c
         시험/06.c
+        iofun.c
 )
 
 add_executable(elapsed "교수님 제공 코드/1-1/01_elapsed.c")
