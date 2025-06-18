@@ -35,6 +35,8 @@ add_library(Data_Structure_source STATIC test.c
         시험/05.c
         시험/06.c
         iofun.c
+        대비문제/2/clean-room.c
+        대비문제/2/simple-clean-room.c
 )
 
 add_executable(elapsed "교수님 제공 코드/1-1/01_elapsed.c")
@@ -86,3 +88,13 @@ add_executable(03 시험/03.c 시험/LinkedList.h)
 add_executable(LinkedList "교수님 제공 코드/1-6/1-6설명/LinkedList.c")
 add_executable(04 시험/04.c)
 add_executable(05 시험/05.c)
+add_executable(clean-room 대비문제/2/clean-room.c)
+add_executable(simple-clean-room 대비문제/2/simple-clean-room.c)
+add_executable(problem5_string_dictionary 대비문제/2/답안지/problem5_string_dictionary.c)
+add_executable(problem6_radix_sort 대비문제/2/답안지/problem6_radix_sort.c)
+add_executable(problem1_min_heap 대비문제/2/답안지/problem1_min_heap.c)
+add_executable(problem2_stack_calculator 대비문제/2/답안지/problem2_stack_calculator.c)
+add_executable(problem3_circular_queue 대비문제/2/답안지/problem3_circular_queue.c)
+add_executable(problem4_priority_queue 대비문제/2/답안지/problem4_priority_queue.c)
+add_executable(problem7_btree_node 대비문제/2/답안지/problem7_btree_node.c)
+add_executable(problem8_robot_sorting 대비문제/2/답안지/problem8_robot_sorting.c)
