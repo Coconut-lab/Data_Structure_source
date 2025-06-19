@@ -39,12 +39,7 @@
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/sort_all.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/sort_qsort.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/tri-circle2.dir
-/Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/01.dir
-/Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/02.dir
-/Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/03.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/LinkedList.dir
-/Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/04.dir
-/Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/05.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/clean-room.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/simple-clean-room.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/problem5_string_dictionary.dir
@@ -59,5 +54,9 @@
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/reverse2.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/reverse3.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/tree-clean-room.dir
+/Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/01.dir
+/Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/02.dir
+/Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/03.dir
+/Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/04.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/rebuild_cache.dir
