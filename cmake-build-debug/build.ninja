@@ -259,6 +259,12 @@ build CMakeFiles/Data_Structure_source.dir/기타/reverse3.c.o: C_COMPILER__Data
   OBJECT_DIR = CMakeFiles/Data_Structure_source.dir
   OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir/기타
 
+build CMakeFiles/Data_Structure_source.dir/대비문제/2/tree-clean-room.c.o: C_COMPILER__Data_Structure_source_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/대비문제/2/tree-clean-room.c || cmake_object_order_depends_target_Data_Structure_source
+  DEP_FILE = CMakeFiles/Data_Structure_source.dir/대비문제/2/tree-clean-room.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Data_Structure_source.dir
+  OBJECT_FILE_DIR = CMakeFiles/Data_Structure_source.dir/대비문제/2
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target Data_Structure_source
@@ -267,7 +273,7 @@ build CMakeFiles/Data_Structure_source.dir/기타/reverse3.c.o: C_COMPILER__Data
 #############################################
 # Link the static library libData_Structure_source.a
 
-build libData_Structure_source.a: C_STATIC_LIBRARY_LINKER__Data_Structure_source_Debug CMakeFiles/Data_Structure_source.dir/test.c.o CMakeFiles/Data_Structure_source.dir/기타/1-2/first.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-1/01-1_elapsed.c.o CMakeFiles/Data_Structure_source.dir/과제/total_code-1-1.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-2/01-1_array_1D.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-2/02-1_string_test.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-2/04-1_matrix.c.o CMakeFiles/Data_Structure_source.dir/과제/1-2/total_code-1-2.c.o CMakeFiles/Data_Structure_source.dir/대비문제/1/1-2.c.o CMakeFiles/Data_Structure_source.dir/대비문제/1/1-3.c.o CMakeFiles/Data_Structure_source.dir/대비문제/1/calculator.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-3/guiHanoiTower.c.o CMakeFiles/Data_Structure_source.dir/대비문제/1/1-4.c.o CMakeFiles/Data_Structure_source.dir/대비문제/1/1-4-solution.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium_ex.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium_test.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Upgrade_waiting_queue.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-6/1-6_문제/tri-circle.c.o CMakeFiles/Data_Structure_source.dir/대비문제/1/SelectionSort.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-6/1-6_문제/tri-circle2.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium_minjae.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium_minjae2.c.o CMakeFiles/Data_Structure_source.dir/시험/01.c.o CMakeFiles/Data_Structure_source.dir/시험/02.c.o CMakeFiles/Data_Structure_source.dir/시험/03.c.o CMakeFiles/Data_Structure_source.dir/시험/04.c.o CMakeFiles/Data_Structure_source.dir/시험/05.c.o CMakeFiles/Data_Structure_source.dir/시험/06.c.o CMakeFiles/Data_Structure_source.dir/iofun.c.o CMakeFiles/Data_Structure_source.dir/대비문제/2/clean-room.c.o CMakeFiles/Data_Structure_source.dir/대비문제/2/simple-clean-room.c.o CMakeFiles/Data_Structure_source.dir/기타/reverse1.c.o CMakeFiles/Data_Structure_source.dir/기타/reverse2.c.o CMakeFiles/Data_Structure_source.dir/기타/reverse3.c.o
+build libData_Structure_source.a: C_STATIC_LIBRARY_LINKER__Data_Structure_source_Debug CMakeFiles/Data_Structure_source.dir/test.c.o CMakeFiles/Data_Structure_source.dir/기타/1-2/first.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-1/01-1_elapsed.c.o CMakeFiles/Data_Structure_source.dir/과제/total_code-1-1.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-2/01-1_array_1D.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-2/02-1_string_test.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-2/04-1_matrix.c.o CMakeFiles/Data_Structure_source.dir/과제/1-2/total_code-1-2.c.o CMakeFiles/Data_Structure_source.dir/대비문제/1/1-2.c.o CMakeFiles/Data_Structure_source.dir/대비문제/1/1-3.c.o CMakeFiles/Data_Structure_source.dir/대비문제/1/calculator.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-3/guiHanoiTower.c.o CMakeFiles/Data_Structure_source.dir/대비문제/1/1-4.c.o CMakeFiles/Data_Structure_source.dir/대비문제/1/1-4-solution.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium_ex.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium_test.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Upgrade_waiting_queue.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-6/1-6_문제/tri-circle.c.o CMakeFiles/Data_Structure_source.dir/대비문제/1/SelectionSort.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-6/1-6_문제/tri-circle2.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium_minjae.c.o CMakeFiles/Data_Structure_source.dir/교수님_제공_코드/1-4/Radium_minjae2.c.o CMakeFiles/Data_Structure_source.dir/시험/01.c.o CMakeFiles/Data_Structure_source.dir/시험/02.c.o CMakeFiles/Data_Structure_source.dir/시험/03.c.o CMakeFiles/Data_Structure_source.dir/시험/04.c.o CMakeFiles/Data_Structure_source.dir/시험/05.c.o CMakeFiles/Data_Structure_source.dir/시험/06.c.o CMakeFiles/Data_Structure_source.dir/iofun.c.o CMakeFiles/Data_Structure_source.dir/대비문제/2/clean-room.c.o CMakeFiles/Data_Structure_source.dir/대비문제/2/simple-clean-room.c.o CMakeFiles/Data_Structure_source.dir/기타/reverse1.c.o CMakeFiles/Data_Structure_source.dir/기타/reverse2.c.o CMakeFiles/Data_Structure_source.dir/기타/reverse3.c.o CMakeFiles/Data_Structure_source.dir/대비문제/2/tree-clean-room.c.o
   ARCH_FLAGS = -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles/Data_Structure_source.dir
@@ -2111,6 +2117,37 @@ build reverse3: C_EXECUTABLE_LINKER__reverse3_Debug CMakeFiles/reverse3.dir/기�
   TARGET_FILE = reverse3
   TARGET_PDB = reverse3.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target tree-clean-room
+
+
+#############################################
+# Order-only phony target for tree-clean-room
+
+build cmake_object_order_depends_target_tree-clean-room: phony || .
+
+build CMakeFiles/tree-clean-room.dir/대비문제/2/tree-clean-room.c.o: C_COMPILER__tree-clean-room_unscanned_Debug /Users/chahyeonjin/Documents/Data_Structure_source/대비문제/2/tree-clean-room.c || cmake_object_order_depends_target_tree-clean-room
+  DEP_FILE = CMakeFiles/tree-clean-room.dir/대비문제/2/tree-clean-room.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/tree-clean-room.dir
+  OBJECT_FILE_DIR = CMakeFiles/tree-clean-room.dir/대비문제/2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target tree-clean-room
+
+
+#############################################
+# Link the executable tree-clean-room
+
+build tree-clean-room: C_EXECUTABLE_LINKER__tree-clean-room_Debug CMakeFiles/tree-clean-room.dir/대비문제/2/tree-clean-room.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/tree-clean-room.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tree-clean-room
+  TARGET_PDB = tree-clean-room.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -2147,7 +2184,7 @@ build Data_Structure_source: phony libData_Structure_source.a
 #############################################
 # Folder: /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug
 
-build all: phony libData_Structure_source.a elapsed 01-1_elapsed 01_elapsed 02_find_max 04_sequential_search total_code-1-1 array_1D 01-1_array_1D 02-1_string_test 04-1_matrix 05_complex ArrayStack FnCallStack 1-1 1-2 1-3 test01 test02 eval_postfix calculator infix2postfix HanoiTower guiHanoiTower 03_has_duplicate_elem 1-4 1-4-solution CircularQueue CircularDeque Radium Radium_test fibonicci_queue Radium_ex Upgrade_waiting_queue MazeDFSDeque DynStack tri-circle test sort_all sort_qsort tri-circle2 01 02 03 LinkedList 04 05 clean-room simple-clean-room problem5_string_dictionary problem6_radix_sort problem1_min_heap problem2_stack_calculator problem3_circular_queue problem4_priority_queue problem7_btree_node problem8_robot_sorting reverse1 reverse2 reverse3
+build all: phony libData_Structure_source.a elapsed 01-1_elapsed 01_elapsed 02_find_max 04_sequential_search total_code-1-1 array_1D 01-1_array_1D 02-1_string_test 04-1_matrix 05_complex ArrayStack FnCallStack 1-1 1-2 1-3 test01 test02 eval_postfix calculator infix2postfix HanoiTower guiHanoiTower 03_has_duplicate_elem 1-4 1-4-solution CircularQueue CircularDeque Radium Radium_test fibonicci_queue Radium_ex Upgrade_waiting_queue MazeDFSDeque DynStack tri-circle test sort_all sort_qsort tri-circle2 01 02 03 LinkedList 04 05 clean-room simple-clean-room problem5_string_dictionary problem6_radix_sort problem1_min_heap problem2_stack_calculator problem3_circular_queue problem4_priority_queue problem7_btree_node problem8_robot_sorting reverse1 reverse2 reverse3 tree-clean-room
 
 # =============================================================================
 # Built-in targets
