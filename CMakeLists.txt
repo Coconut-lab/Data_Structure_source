@@ -37,6 +37,9 @@ add_library(Data_Structure_source STATIC test.c
         iofun.c
         대비문제/2/clean-room.c
         대비문제/2/simple-clean-room.c
+        기타/reverse1.c
+        기타/reverse2.c
+        기타/reverse3.c
 )
 
 add_executable(elapsed "교수님 제공 코드/1-1/01_elapsed.c")
@@ -98,3 +101,6 @@ add_executable(problem3_circular_queue 대비문제/2/답안지/problem3_circula
 add_executable(problem4_priority_queue 대비문제/2/답안지/problem4_priority_queue.c)
 add_executable(problem7_btree_node 대비문제/2/답안지/problem7_btree_node.c)
 add_executable(problem8_robot_sorting 대비문제/2/답안지/problem8_robot_sorting.c)
+add_executable(reverse1 기타/reverse1.c)
+add_executable(reverse2 기타/reverse2.c)
+add_executable(reverse3 기타/reverse3.c)

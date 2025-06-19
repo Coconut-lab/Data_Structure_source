@@ -55,5 +55,8 @@
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/problem4_priority_queue.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/problem7_btree_node.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/problem8_robot_sorting.dir
+/Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/reverse1.dir
+/Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/reverse2.dir
+/Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/reverse3.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/chahyeonjin/Documents/Data_Structure_source/cmake-build-debug/CMakeFiles/rebuild_cache.dir
